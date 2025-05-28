@@ -9,7 +9,13 @@ import 'package:visits_tracker/features/visits/domain/entities/visit.dart';
 class MockVisitsRemoteDataSource extends Mock implements VisitsRemoteDataSource {}
 class MockVisitsLocalDataSource extends Mock implements VisitsLocalDataSource {}
 
+class FakeVisitModel extends Fake implements VisitModel {}
+
 void main() {
+  setUpAll(() {
+    registerFallbackValue(FakeVisitModel());
+  });
+
   late VisitsRepositoryImpl repository;
   late MockVisitsRemoteDataSource mockRemoteDataSource;
   late MockVisitsLocalDataSource mockLocalDataSource;
