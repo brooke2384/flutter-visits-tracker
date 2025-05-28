@@ -151,7 +151,7 @@ flutter build appbundle --release
 
 The app integrates with a Supabase-powered REST API:
 
-- **Base URL**: `https://kqgbftwsodpttpqgqnbh.supabase.co/rest/v1`
+
 - **Authentication**: API Key in headers
 - **Endpoints**:
   - `/customers` - Customer data
