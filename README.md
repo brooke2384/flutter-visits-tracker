@@ -242,19 +242,3 @@ The app integrates with a Supabase-powered REST API:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Team
-
-- **Developer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername]
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Supabase for the backend infrastructure
-- BLoC library maintainers
-- Open source community
-
----
-
-**Note**: This app was built as part of a technical challenge for a Flutter engineering role, demonstrating production-ready code with proper architecture, testing, and CI/CD practices.
